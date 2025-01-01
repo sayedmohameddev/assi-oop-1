@@ -34,6 +34,14 @@ namespace assi_oop_1
     //}
     #endregion
 
+    #region
+    //enum Colors
+    //{
+    //    Red,
+    //    Green,
+    //    Blue
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -103,6 +111,27 @@ namespace assi_oop_1
             //else
             //{
             //    Console.WriteLine("Execute permission is not granted.");
+            //}
+            #endregion
+
+            #region q-04
+            //Console.WriteLine("Enter a color name (Red, Green, Blue):");
+            //string userInput = Console.ReadLine();
+
+            //if (Enum.TryParse(userInput, true, out Colors color))
+            //{
+            //    switch (color)
+            //    {
+            //        case Colors.Red:
+            //        case Colors.Green:
+            //        case Colors.Blue:
+            //            Console.WriteLine($"{color} is a primary color.");
+            //            break;
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{userInput} is not a primary color.");
             //}
             #endregion
         }
