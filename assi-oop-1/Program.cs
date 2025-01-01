@@ -23,6 +23,16 @@ namespace assi_oop_1
     //    Winter
     //}
     #endregion
+    #region
+    //enum Permissions
+    //{
+    //    None = 0,      
+    //    Read = 1,    
+    //    Write = 2,     
+    //    Delete = 4,   
+    //    Execute = 8    
+    //}
+    #endregion
 
     internal class Program
     {
@@ -65,6 +75,35 @@ namespace assi_oop_1
             //    Console.WriteLine("Invalid input. Please enter a valid season name.");
             //}
 
+            #endregion
+
+            #region q-03
+            //Permissions userPermissions = Permissions.None;
+
+            //userPermissions |= Permissions.Read;
+            //userPermissions |= Permissions.Write;
+            //Console.WriteLine($"Current Permissions: {userPermissions}");
+
+            //userPermissions &= ~Permissions.Write;
+            //Console.WriteLine($"Permissions after removing Write: {userPermissions}");
+
+            //if ((userPermissions & Permissions.Read) == Permissions.Read)
+            //{
+            //    Console.WriteLine("Read permission is granted.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Read permission is not granted.");
+            //}
+
+            //if ((userPermissions & Permissions.Execute) == Permissions.Execute)
+            //{
+            //    Console.WriteLine("Execute permission is granted.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Execute permission is not granted.");
+            //}
             #endregion
         }
     }
